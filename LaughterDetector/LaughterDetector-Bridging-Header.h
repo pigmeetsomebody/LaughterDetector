@@ -8,5 +8,6 @@
 #ifndef LaughterDetector_Bridging_Header_h
 #define LaughterDetector_Bridging_Header_h
 
+#import "DynamicWaterNode.h"
 
 #endif /* LaughterDetector_Bridging_Header_h */

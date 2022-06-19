@@ -44,7 +44,14 @@ struct AppConfiguration {
 /// `DetectSoundsView` renders. It incorporates new classification results as the app produces them into
 /// the cumulative understanding of what sounds are currently present. It tracks interruptions, and allows for
 /// restarting an analysis by providing a new configuration.
+///
+
+
+typealias ConfidenceDidChanged = ([(SoundIdentifier, DetectionState)]) -> ()
 class AppState: ObservableObject {
+    
+    var confidenceDidChangedBlock: ConfidenceDidChanged?
+    
     /// A cancellable object for the lifetime of the sound classification.
     ///
     /// While the app retains this cancellable object, a sound classification task continues to run until it
@@ -82,6 +89,7 @@ class AppState: ObservableObject {
           .sink(receiveCompletion: { _ in self.soundDetectionIsRunning = false },
                 receiveValue: {
                     self.detectionStates = AppState.advanceDetectionStates(self.detectionStates, givenClassificationResult: $0)
+                    self.confidenceDidChangedBlock?(self.detectionStates)
                 })
 
         self.detectionStates =
@@ -99,6 +107,10 @@ class AppState: ObservableObject {
           subject: classificationSubject,
           inferenceWindowSize: config.inferenceWindowSize,
           overlapFactor: config.overlapFactor)
+    }
+    
+    func stopDetection(config: AppConfiguration) {
+        SystemAudioClassifier.singleton.stopSoundClassification()
     }
 
     /// Updates the detection states according to the latest classification result.
@@ -135,12 +147,4 @@ extension SNClassificationResult {
     }
 }
 
-@main
-struct ClassifySoundApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
-}
 

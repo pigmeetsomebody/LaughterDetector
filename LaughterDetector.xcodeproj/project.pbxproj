@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1903692F2712AED1009DAB4B /* AquaProgressIndicatorScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1903691C2712AED1009DAB4B /* AquaProgressIndicatorScene.swift */; };
+		190369302712AED1009DAB4B /* AquaProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1903691D2712AED1009DAB4B /* AquaProgressIndicator.swift */; };
+		190369312712AED1009DAB4B /* NumTypes+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1903691F2712AED1009DAB4B /* NumTypes+Random.swift */; };
+		190369322712AED1009DAB4B /* DispatchQueue+DispatchOnce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190369202712AED1009DAB4B /* DispatchQueue+DispatchOnce.swift */; };
+		190369332712AED1009DAB4B /* CausticDroplet.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 190369222712AED1009DAB4B /* CausticDroplet.fsh */; };
+		190369342712AED1009DAB4B /* Droplets.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 190369232712AED1009DAB4B /* Droplets.fsh */; };
+		190369352712AED1009DAB4B /* WaterNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190369252712AED1009DAB4B /* WaterNode.swift */; };
+		190369362712AED1009DAB4B /* WaterJoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190369262712AED1009DAB4B /* WaterJoint.swift */; };
+		190369372712AED1009DAB4B /* DynamicWaterNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 190369282712AED1009DAB4B /* DynamicWaterNode.m */; };
+		190369382712AED1009DAB4B /* Splashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1903692B2712AED1009DAB4B /* Splashable.swift */; };
+		190369392712AED1009DAB4B /* Renderable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1903692C2712AED1009DAB4B /* Renderable.swift */; };
+		1903693A2712AED1009DAB4B /* Updatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1903692D2712AED1009DAB4B /* Updatable.swift */; };
+		1903693B2712AED1009DAB4B /* Droplet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1903692E2712AED1009DAB4B /* Droplet.swift */; };
+		1903694C2712B7D2009DAB4B /* ClassificationResultsSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190369482712B7D2009DAB4B /* ClassificationResultsSubject.swift */; };
+		1903694D2712B7D2009DAB4B /* SoundIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190369492712B7D2009DAB4B /* SoundIdentifier.swift */; };
+		1903694E2712B7D2009DAB4B /* DetectionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1903694A2712B7D2009DAB4B /* DetectionState.swift */; };
+		1903694F2712B7D2009DAB4B /* SystemAudioClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1903694B2712B7D2009DAB4B /* SystemAudioClassifier.swift */; };
+		190369512712BC22009DAB4B /* ClassifySoundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190369502712BC21009DAB4B /* ClassifySoundApp.swift */; };
 		19C0AC432712ADFC0097DC5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C0AC422712ADFC0097DC5F /* AppDelegate.swift */; };
 		19C0AC452712ADFC0097DC5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C0AC442712ADFC0097DC5F /* SceneDelegate.swift */; };
 		19C0AC472712ADFC0097DC5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C0AC462712ADFC0097DC5F /* ViewController.swift */; };
@@ -36,6 +54,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1903691C2712AED1009DAB4B /* AquaProgressIndicatorScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AquaProgressIndicatorScene.swift; sourceTree = "<group>"; };
+		1903691D2712AED1009DAB4B /* AquaProgressIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AquaProgressIndicator.swift; sourceTree = "<group>"; };
+		1903691F2712AED1009DAB4B /* NumTypes+Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NumTypes+Random.swift"; sourceTree = "<group>"; };
+		190369202712AED1009DAB4B /* DispatchQueue+DispatchOnce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+DispatchOnce.swift"; sourceTree = "<group>"; };
+		190369222712AED1009DAB4B /* CausticDroplet.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = CausticDroplet.fsh; sourceTree = "<group>"; };
+		190369232712AED1009DAB4B /* Droplets.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Droplets.fsh; sourceTree = "<group>"; };
+		190369252712AED1009DAB4B /* WaterNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterNode.swift; sourceTree = "<group>"; };
+		190369262712AED1009DAB4B /* WaterJoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterJoint.swift; sourceTree = "<group>"; };
+		190369282712AED1009DAB4B /* DynamicWaterNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicWaterNode.m; sourceTree = "<group>"; };
+		190369292712AED1009DAB4B /* DynamicWaterNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicWaterNode.h; sourceTree = "<group>"; };
+		1903692B2712AED1009DAB4B /* Splashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Splashable.swift; sourceTree = "<group>"; };
+		1903692C2712AED1009DAB4B /* Renderable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Renderable.swift; sourceTree = "<group>"; };
+		1903692D2712AED1009DAB4B /* Updatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Updatable.swift; sourceTree = "<group>"; };
+		1903692E2712AED1009DAB4B /* Droplet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Droplet.swift; sourceTree = "<group>"; };
+		1903693F2712AFD9009DAB4B /* LaughterDetector-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LaughterDetector-Bridging-Header.h"; sourceTree = "<group>"; };
+		190369482712B7D2009DAB4B /* ClassificationResultsSubject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassificationResultsSubject.swift; sourceTree = "<group>"; };
+		190369492712B7D2009DAB4B /* SoundIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundIdentifier.swift; sourceTree = "<group>"; };
+		1903694A2712B7D2009DAB4B /* DetectionState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetectionState.swift; sourceTree = "<group>"; };
+		1903694B2712B7D2009DAB4B /* SystemAudioClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemAudioClassifier.swift; sourceTree = "<group>"; };
+		190369502712BC21009DAB4B /* ClassifySoundApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassifySoundApp.swift; sourceTree = "<group>"; };
 		19C0AC3F2712ADFC0097DC5F /* LaughterDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaughterDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19C0AC422712ADFC0097DC5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19C0AC442712ADFC0097DC5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +114,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1903691B2712AED1009DAB4B /* AquaProgressIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				1903691C2712AED1009DAB4B /* AquaProgressIndicatorScene.swift */,
+				1903691D2712AED1009DAB4B /* AquaProgressIndicator.swift */,
+				1903691E2712AED1009DAB4B /* Extensions */,
+				190369212712AED1009DAB4B /* Shaders */,
+				190369242712AED1009DAB4B /* Water Node */,
+			);
+			path = AquaProgressIndicator;
+			sourceTree = "<group>";
+		};
+		1903691E2712AED1009DAB4B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1903691F2712AED1009DAB4B /* NumTypes+Random.swift */,
+				190369202712AED1009DAB4B /* DispatchQueue+DispatchOnce.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		190369212712AED1009DAB4B /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				190369222712AED1009DAB4B /* CausticDroplet.fsh */,
+				190369232712AED1009DAB4B /* Droplets.fsh */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		190369242712AED1009DAB4B /* Water Node */ = {
+			isa = PBXGroup;
+			children = (
+				190369252712AED1009DAB4B /* WaterNode.swift */,
+				190369262712AED1009DAB4B /* WaterJoint.swift */,
+				190369272712AED1009DAB4B /* Objc */,
+				1903692A2712AED1009DAB4B /* Protocols */,
+				1903692E2712AED1009DAB4B /* Droplet.swift */,
+			);
+			path = "Water Node";
+			sourceTree = "<group>";
+		};
+		190369272712AED1009DAB4B /* Objc */ = {
+			isa = PBXGroup;
+			children = (
+				190369282712AED1009DAB4B /* DynamicWaterNode.m */,
+				190369292712AED1009DAB4B /* DynamicWaterNode.h */,
+			);
+			path = Objc;
+			sourceTree = "<group>";
+		};
+		1903692A2712AED1009DAB4B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				1903692B2712AED1009DAB4B /* Splashable.swift */,
+				1903692C2712AED1009DAB4B /* Renderable.swift */,
+				1903692D2712AED1009DAB4B /* Updatable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		19C0AC362712ADFC0097DC5F = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +198,20 @@
 		19C0AC412712ADFC0097DC5F /* LaughterDetector */ = {
 			isa = PBXGroup;
 			children = (
+				1903691B2712AED1009DAB4B /* AquaProgressIndicator */,
 				19C0AC422712ADFC0097DC5F /* AppDelegate.swift */,
 				19C0AC442712ADFC0097DC5F /* SceneDelegate.swift */,
 				19C0AC462712ADFC0097DC5F /* ViewController.swift */,
+				190369502712BC21009DAB4B /* ClassifySoundApp.swift */,
 				19C0AC482712ADFC0097DC5F /* Main.storyboard */,
+				190369482712B7D2009DAB4B /* ClassificationResultsSubject.swift */,
+				1903694A2712B7D2009DAB4B /* DetectionState.swift */,
+				190369492712B7D2009DAB4B /* SoundIdentifier.swift */,
+				1903694B2712B7D2009DAB4B /* SystemAudioClassifier.swift */,
 				19C0AC4B2712ADFE0097DC5F /* Assets.xcassets */,
 				19C0AC4D2712ADFE0097DC5F /* LaunchScreen.storyboard */,
 				19C0AC502712ADFF0097DC5F /* Info.plist */,
+				1903693F2712AFD9009DAB4B /* LaughterDetector-Bridging-Header.h */,
 			);
 			path = LaughterDetector;
 			sourceTree = "<group>";
@@ -231,9 +337,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				190369342712AED1009DAB4B /* Droplets.fsh in Resources */,
 				19C0AC4F2712ADFE0097DC5F /* LaunchScreen.storyboard in Resources */,
 				19C0AC4C2712ADFE0097DC5F /* Assets.xcassets in Resources */,
 				19C0AC4A2712ADFC0097DC5F /* Main.storyboard in Resources */,
+				190369332712AED1009DAB4B /* CausticDroplet.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +368,23 @@
 			files = (
 				19C0AC472712ADFC0097DC5F /* ViewController.swift in Sources */,
 				19C0AC432712ADFC0097DC5F /* AppDelegate.swift in Sources */,
+				1903694C2712B7D2009DAB4B /* ClassificationResultsSubject.swift in Sources */,
+				1903692F2712AED1009DAB4B /* AquaProgressIndicatorScene.swift in Sources */,
+				190369392712AED1009DAB4B /* Renderable.swift in Sources */,
+				190369372712AED1009DAB4B /* DynamicWaterNode.m in Sources */,
+				190369352712AED1009DAB4B /* WaterNode.swift in Sources */,
+				190369322712AED1009DAB4B /* DispatchQueue+DispatchOnce.swift in Sources */,
+				1903694F2712B7D2009DAB4B /* SystemAudioClassifier.swift in Sources */,
+				190369302712AED1009DAB4B /* AquaProgressIndicator.swift in Sources */,
+				1903694E2712B7D2009DAB4B /* DetectionState.swift in Sources */,
+				1903693A2712AED1009DAB4B /* Updatable.swift in Sources */,
+				190369382712AED1009DAB4B /* Splashable.swift in Sources */,
+				1903693B2712AED1009DAB4B /* Droplet.swift in Sources */,
+				1903694D2712B7D2009DAB4B /* SoundIdentifier.swift in Sources */,
+				190369512712BC22009DAB4B /* ClassifySoundApp.swift in Sources */,
+				190369362712AED1009DAB4B /* WaterJoint.swift in Sources */,
 				19C0AC452712ADFC0097DC5F /* SceneDelegate.swift in Sources */,
+				190369312712AED1009DAB4B /* NumTypes+Random.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +497,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "LaughterDetector/LaughterDetector-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -427,6 +552,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "LaughterDetector/LaughterDetector-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -452,7 +578,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.LaughterDetector;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jianjianzhu.XYPhotoKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -480,7 +606,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.LaughterDetector;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jianjianzhu.XYPhotoKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
